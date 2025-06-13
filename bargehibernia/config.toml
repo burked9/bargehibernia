@@ -1,0 +1,9 @@
+baseURL = "http://localhost:1313/"
+title = "BargeHibernia"
+theme = "blowfish"
+
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.137.0"
+max = "0.147.5"
