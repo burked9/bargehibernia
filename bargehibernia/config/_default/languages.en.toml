@@ -2,27 +2,27 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "BargeHibernia"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  logo = "img/logo.png"
+  secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
  [params.author]
    name = "Daniel Burke"
    email = "burked9@gmail.com"
-   image = "img/blowfish_logo.png"
+   image = "profile.png"
    imageQuality = 96
    headline = "I'm only human"
-   bio = "A little bit about you"
+   bio = "Sure look, isn't that it"
    links = [
-     { email = "mailto:hello@your_domain.com" },
+     { email = "mailto:barge77m@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -35,8 +35,8 @@ title = "Blowfish"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/username" },
-     { gitlab = "https://gitlab.com/username" },
+     { github = "https://github.com/burked9" },
+     { gitlab = "https://gitlab.com/burked9" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
 #     { instagram = "https://instagram.com/username" },
