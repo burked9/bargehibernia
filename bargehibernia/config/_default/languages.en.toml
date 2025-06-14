@@ -15,12 +15,12 @@ title = "BargeHibernia"
   # copyright = "Copy, _right?_ :thinking_face:"
 
  [params.author]
-   name = "Daniel Burke"
+#   name = "Daniel Burke"
    email = "burked9@gmail.com"
-   image = "profile.png"
+   image = "profile.jpg"
    imageQuality = 96
    headline = "I'm only human"
-   bio = "Sure look, isn't that it"
+#   bio = "Sure look, isn't that it"
    links = [
      { email = "mailto:barge77m@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },

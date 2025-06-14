@@ -15,6 +15,44 @@
   pageRef = "posts"
   weight = 10
 
+[[main]]
+  identifier = "vessels"
+  name = "Vessels"
+  url = "/vessels/"
+  weight = 11
+
+[[main]]
+  identifier = "memories"
+  name = "Memories"
+  url = "/memories/"
+  weight = 12
+
+[[main]]
+  identifier = "publications"
+  name = "Publications"
+  url = "/publications/"
+  weight = 13
+
+#[[main]]
+#  identifier = "tags"
+#  name = "Tags"
+#  url = "/tags/"
+#  weight = 14
+
+[[main]]
+  identifier = "ports"
+  name = "Ports"
+  url = "/ports/"
+  weight = 15
+
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
@@ -47,10 +85,7 @@
 #  pageRef = "categories"
 #  weight = 20
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+
 
 
 # -- Footer Menu --

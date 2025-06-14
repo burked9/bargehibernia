@@ -1,0 +1,17 @@
+<h1>{{ .Title }}</h1>
+<ul>
+    {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+<p>
+    <a href="{{ .Site.BaseURL }}">Back to home</a>
+</p>
+{{ partial "footer.html" . }}
+{{ partial "scripts.html" . }}
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+{{ partial "sidebar.html" . }}
+{{ partial "search.html" . }}
+{{ partial "analytics.html" . }}
