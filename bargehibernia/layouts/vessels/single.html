@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<h1 class="text-4xl font-extrabold mt-5">{{ .Title }}</h1>
+
+{{ with .Params.description }}
+  <p class="mt-2 text-lg text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+{{ end }}
+
+<section class="mt-10 prose dark:prose-invert max-w-prose">
+  {{ .Content }}
+</section>
+
+{{ if not .Date.IsZero }}
+  <p class="mt-8 text-sm text-neutral-400 dark:text-neutral-500">
+    Last updated: {{ .Lastmod.Format "January 2, 2006" }}
+  </p>
+{{ end }}
+
+
+{{ with .Params.vesselID }}
+  <h2 class="mt-10 text-xl font-semibold">Posts involving {{ . }}</h2>
+  <ul class="mt-4 space-y-2">
+    {{ range index site.Taxonomies.vesselnames . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ else }}
+      <li class="text-neutral-500">No related posts yet.</li>
+    {{ end }}
+  </ul>
+{{ end }}
+
+{{ end }}

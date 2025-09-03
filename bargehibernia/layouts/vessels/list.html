@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <h1 class="text-4xl font-bold mb-6">{{ .Title }}</h1>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    {{ range .Pages }}
+      <article class="p-4 border rounded hover:shadow transition">
+        <a href="{{ .RelPermalink }}" class="text-lg font-semibold block mb-2">
+          {{ .Title }}
+        </a>
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">
+        {{ .Params.summary | default .Summary }}
+        </p>
+
+      </article>
+    {{ else }}
+      <p class="text-neutral-500 col-span-full">No vessels found.</p>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ define "head" }}
+  <title>{{ .Title }} - Barge Hibernia</title>
+  <meta name="description" content="List of vessels in the Church Bay fleet.">
+{{ end }}
+
+{{ define "footer" }}
+  <p class="text-center text-sm text-neutral-500 mt-6">
+    &copy; {{ now.Format "2006" }} Barge Hibernia. All rights reserved.
+  </p>
+{{ end }}

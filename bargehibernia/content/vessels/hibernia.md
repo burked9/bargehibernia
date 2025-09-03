@@ -1,27 +1,12 @@
-# bargehibernia
-For static website barge blog hibernia
++++
+title = "Hibernia"
+summary = "Lighter from the Lagan."
+date = "2025-06-14T19:56:47+01:00"
+tags = ["Launch", "Maintenance", "Lough Derg", "Lough Ree", "Lough Neagh"]
+ports = ["Lough Derg", "Bann River", "Lagan", "Lough Ree", "Inner Lakes"]
+draft = false
 
-This is a static website for the barge Hibernia, and other Church Bay boats, authored by Daniel Burke June 2025
-
-*Todo:*
-* 2019 Ballykeeran Photos
-* 2024 Photos
-* website posts and media (memories and publications)
-* check Lough Ree as a tag
-* explore irish translations
-* shannon scheme documents into publications
-* add further links (HBA website)
-* Produce two CSVs (vessels.csv, ports.csv) with cleaned slugs, labels, and counts.
-* Generate a pivot table showing photo counts per vessel per year (useful for an archive page).
-* Auto-assign suggested tags based on simple keyword rules and save to a third CSV.
-
-
-Let me know if you want me to generate a more styled or story-led intro to appear at the top of the section (like a paragraph describing the fleet). We could even auto-pull stats for total vessels and total views in this list page.
-
-Your archive’s shaping up beautifully, Daniel. Ready to hoist the next sail when you are. 🚤📚 Shall we add a grid of images next? Let’s go.
-
-
-## Hibernia: HBA
++++
 
 Built by the Portadown Foundry in 1912, she is 63ft long by 15ft wide. It is believed that she worked on the Lagan for approximately four years as this is the only record found. It was then purchased by a local businessman who converted it to a pleasure craft.
 While it wasn't unusual for people to live in old barges, the Hibernia was probably the earliest full barge conversion in Ireland.  
@@ -35,18 +20,3 @@ Later the next day it was discovered she had escaped and was eventually found on
 Her original engine was a Bolinder, later on an 11 litre AEC Mandator engine. She is now fitted with
 new Perkins 6354 and has a Perkins 4108 wing engine. She is also fitted with a 15hp Bowthruster, a 6kW generator and a 3kW inverter.
 In the Autumn of 2018, Hibernia (HI - BERNIA) was transported by road from Lough Neagh to Portaneena (Lough Ree) for re-design and construction works for the new owner.
-
-**Addendum:**
-After extensive work in Ballykeeran over a number of years she was refloated in the summer of 2024, and after some hull work in shannon harbour, moved to her new home of Church Bay on Lough Derg, where a new fitted wheelhouse is being finished, along with original style portholes and all of the luxuries which she had in a previous life. If it wasn't for the hard work and dedication of her previous owners, she wouldn't still be here for future generations to enjoy.
-
-*Hibernia (Generated)*
-## Hibernia: A Legacy on Water
-
-Splash Page – Welcome to Hibernia
-*A Legacy in Motion*
-
-Built in 1912, Hibernia is more than just a vessel—she is a living testament to Ireland’s maritime heritage. From her origins as a hard-working Lagan barge to one of Ireland’s first full barge conversions, she has sailed through history with an undeniable spirit of resilience.
-
-Through decades of transformation, sinking and salvage, storms and restoration, Hibernia has endured—a floating masterpiece, lovingly rebuilt by hands that refuse to let her story fade. Now, standing proudly once more, she continues her journey towards a new era.
-
-Explore her past, witness her revival, and become part of the legacy.
