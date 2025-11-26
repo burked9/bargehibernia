@@ -14,10 +14,9 @@
     </header>
 
     <nav>
-        <a href="{{ SITEURL }}/">Home</a>
-        <a href="{{ SITEURL }}/vessels/hibernia.html">Hibernia</a>
-        <a href="{{ SITEURL }}/vessels/esb-1.html">ESB 1</a>
-        <a href="{{ SITEURL }}/vessels/esb-2.html">ESB 2</a>
+        {% for title, link in MENUITEMS %}
+        <a href="{{ SITEURL }}{{ link }}">{{ title }}</a>
+        {% endfor %}
     </nav>
 
     <div class="container">
