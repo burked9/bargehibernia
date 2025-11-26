@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for article in articles %}
+{% if article.save_as == 'index.html' %}
+<article>
+    <div class="entry-content">
+        {{ article.content }}
+    </div>
+</article>
+{% endif %}
+{% endfor %}
+
+{# Fallback if no index page is defined #}
+{% if not articles|selectattr("save_as", "equalto", "index.html")|list %}
+<h2>Recent Articles</h2>
+<ul>
+    {% for article in articles_page.object_list %}
+    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endblock %}

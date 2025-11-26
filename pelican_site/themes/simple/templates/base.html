@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+    </header>
+
+    <nav>
+        <a href="{{ SITEURL }}/">Home</a>
+        <a href="{{ SITEURL }}/vessels/hibernia.html">Hibernia</a>
+        <a href="{{ SITEURL }}/vessels/esb-1.html">ESB 1</a>
+        <a href="{{ SITEURL }}/vessels/esb-2.html">ESB 2</a>
+    </nav>
+
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        &copy; {{ AUTHOR }}
+    </footer>
+</body>
+
+</html>
