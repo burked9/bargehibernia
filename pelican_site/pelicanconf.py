@@ -3,6 +3,7 @@ SITENAME = 'BargeHibernia'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/London'
 
