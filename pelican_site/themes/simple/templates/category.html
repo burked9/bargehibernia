@@ -11,6 +11,7 @@
     {% for article in articles %}
     <article class="card">
         {% if article.image %}
+        <div class="card-bg" style="background-image: url('{{ SITEURL }}/{{ article.image }}');"></div>
         <a href="{{ SITEURL }}/{{ article.url }}" class="card-img-link">
             <img src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}" class="card-img">
         </a>
