@@ -4,6 +4,7 @@ Tags: maintenance, dumb barge, Gerry Burke, Killaloe, Lough Derg, Restoration, E
 Summary: Old ESB & Siemens workbarge.
 Category: Vessels
 Slug: esb-1
+Image: images/vessels/ESB1.jpg
 
 **Serial No.:** 13566  
 **Built:** Germany, 1924 by Ziegret Boizenbarg  

@@ -4,6 +4,7 @@ Tags: Launch, Maintenance, Lough Derg, Lough Ree, Lough Neagh
 Summary: Lighter from the Lagan.
 Category: Vessels
 Slug: hibernia
+Image: images/vessels/hibernia.jpg
 
 Built by the Portadown Foundry in 1912, she is 63ft long by 15ft wide. It is believed that she worked on the Lagan for approximately four years as this is the only record found. It was then purchased by a local businessman who converted it to a pleasure craft.
 
