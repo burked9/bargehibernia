@@ -1,4 +1,4 @@
-Title: Publications
+Title: Publications & References
 Date: 2025-11-26
 Slug: publications
 

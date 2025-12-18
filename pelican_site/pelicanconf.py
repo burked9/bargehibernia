@@ -32,13 +32,14 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
     ('Home', '/'),
-    ('About Us', '/pages/about-us.html'),
-    ('Contact', '/pages/contact.html'),
+    ('About', '/pages/about.html'),
+    ('Latest News', '/pages/news.html'),
+    ('Publications & References', '/pages/publications.html'),
     ('Vessels', '/category/vessels.html'),
-    ('Photos', '/pages/photos.html'),
     ('Memories', '/pages/memories.html'),
-    ('Publications', '/pages/publications.html'),
+    ('Contact', '/pages/contact.html'),
     ('Resources', '/pages/resources.html'),
+    ('Photos', '/pages/photos.html'),
     ('Links', '/pages/links.html'),
 )
 

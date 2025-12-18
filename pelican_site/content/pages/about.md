@@ -1,4 +1,4 @@
-Title: About Us
+Title: About
 Date: 2025-11-26
 Slug: about-us
 

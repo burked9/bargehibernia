@@ -1,9 +1,59 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article>
-    <div class="entry-content">
-        {{ article.content }}
+<section class="hero" style="text-align: center; margin-bottom: 4rem;">
+    <h1>Welcome to Barge Hibernia</h1>
+    <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; color: #555;">
+        Celebrating the floating heritage on the inland waterways of Ireland.
+    </p>
+</section>
+
+<section class="feature-grid"
+    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+
+    <!-- Publications -->
+    <div class="card">
+        <div class="card-content">
+            <h2><a href="{{ SITEURL }}/pages/publications.html">HBA Publications</a></h2>
+            <p>Published material and articles from the HBA and selected sources including the HBA Newsletter.</p>
+            <a href="{{ SITEURL }}/pages/publications.html" class="read-more">Read more</a>
+        </div>
     </div>
-</article>
+
+    <!-- Memories -->
+    <div class="card">
+        <div class="card-content">
+            <h2><a href="{{ SITEURL }}/pages/memories.html">Memories</a></h2>
+            <p>Memories, trips and history from the waterways.</p>
+            <a href="{{ SITEURL }}/pages/memories.html" class="read-more">Read more</a>
+        </div>
+    </div>
+
+    <!-- Vessels -->
+    <div class="card">
+        <div class="card-content">
+            <h2><a href="{{ SITEURL }}/category/vessels.html">Vessels</a></h2>
+            <p>Information on vessels first gathered in 2006 for the book Cool Metal ‑ Clear Water.</p>
+            <a href="{{ SITEURL }}/category/vessels.html" class="read-more">Read more</a>
+        </div>
+    </div>
+
+    <!-- Resources -->
+    <div class="card">
+        <div class="card-content">
+            <h2><a href="{{ SITEURL }}/pages/resources.html">Resources</a></h2>
+            <p>Useful resources and links for boating enthusiasts.</p>
+            <a href="{{ SITEURL }}/pages/resources.html" class="read-more">Read more</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="join-hba"
+    style="text-align: center; margin-top: 4rem; padding: 3rem; background: #e6f5ff; border-radius: 12px;">
+    <h2>Interested in joining the HBA?</h2>
+    <p>The Heritage Boat Association’s aspiration is to protect, promote and celebrate the floating heritage on the
+        inland waterways of Ireland.</p>
+    <a href="{{ SITEURL }}/pages/contact.html" class="read-more" style="font-size: 1.1rem;">Contact Us</a>
+</section>
 {% endblock %}
