@@ -25,6 +25,13 @@
     </div>
 
     <footer>
+        {% if FOOTERITEMS %}
+        <nav style="margin-bottom: 10px;">
+            {% for title, link in FOOTERITEMS %}
+            <a href="{{ SITEURL }}{{ link }}" style="margin: 0 5px;">{{ title }}</a>
+            {% endfor %}
+        </nav>
+        {% endif %}
         &copy; {{ AUTHOR }}
     </footer>
 </body>

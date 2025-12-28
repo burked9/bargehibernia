@@ -31,16 +31,25 @@ DEFAULT_PAGINATION = 10
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
+    # ('Home', '/'),
+    # ('About', '/pages/about.html'),
+    # ('Latest News', '/pages/news.html'),
+    # ('Publications & References', '/pages/publications.html'),
+    # ('Vessels', '/category/vessels.html'),
+    # ('Memories', '/pages/memories.html'),
+    # ('Contact', '/pages/contact.html'),
+    # ('Resources', '/pages/resources.html'),
+    # ('Photos', '/pages/photos.html'),
+    # ('Links', '/pages/links.html'),
+)
+
+FOOTERITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
-    ('Latest News', '/pages/news.html'),
-    ('Publications & References', '/pages/publications.html'),
     ('Vessels', '/category/vessels.html'),
-    ('Memories', '/pages/memories.html'),
-    ('Contact', '/pages/contact.html'),
-    ('Resources', '/pages/resources.html'),
+    ('Publications & References', '/pages/publications.html'),
     ('Photos', '/pages/photos.html'),
-    ('Links', '/pages/links.html'),
+    ('Tags', '/tags.html'),
 )
 
 # Uncomment following line if you want document-relative URLs when developing
