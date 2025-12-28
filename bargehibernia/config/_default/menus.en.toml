@@ -15,19 +15,19 @@
 #  pageRef = "posts"
 #  weight = 10
 
-[[main]]
+[[footer]]
   identifier = "vessels"
   name = "Vessels"
   url = "/vessels/"
   weight = 11
 
-[[main]]
-  identifier = "memories"
-  name = "Memories"
-  url = "/memories/"
-  weight = 12
+#[[main]]
+#  identifier = "memories"
+#  name = "Memories"
+#  url = "/memories/"
+#  weight = 12
 
-[[main]]
+[[footer]]
   identifier = "publications"
   name = "Publications"
   url = "/publications/"
@@ -39,17 +39,17 @@
 #  url = "/tags/"
 #  weight = 14
 
-[[main]]
+[[footer]]
   identifier = "ports"
   name = "Ports"
   url = "/ports/"
   weight = 15
 
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
 
 
 
