@@ -9,6 +9,10 @@
         {% if article.date %}
         <p style="color: #777; font-size: 0.9rem;">{{ article.locale_date }}</p>
         {% endif %}
+        {% if article.image %}
+        <img src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}"
+            style="width: 100%; height: auto; margin-top: 1rem; border-radius: 8px;">
+        {% endif %}
     </header>
 
     <div class="entry-content">
